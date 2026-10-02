@@ -1,0 +1,562 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #170021;
+    color: #baff00;
+
+    font-family: "Comic Sans MS", "Trebuchet MS", Arial, sans-serif;
+
+    line-height: 1.5;
+
+}
+
+
+/* ================= MAIN PAGE ================= */
+
+body::before {
+    content: "⚠ WARNING: YOU HAVE ENTERED THE CULT ⚠";
+
+    display: block;
+
+    background-color: #baff00;
+    color: #30004a;
+
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    padding: 5px;
+
+    border-bottom: 3px solid #7200a8;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    background-color: #350052;
+
+    border: 5px solid #baff00;
+
+    margin: 20px;
+    padding: 20px;
+
+    text-align: center;
+
+    box-shadow: 8px 8px 0 #7200a8;
+}
+
+header h1 {
+    margin: 0;
+
+    color: #baff00;
+
+    font-family: Impact, "Arial Black", sans-serif;
+
+    font-size: 4rem;
+
+    letter-spacing: 8px;
+
+    text-transform: uppercase;
+}
+
+header img {
+    margin: 10px;
+
+    border: 4px solid #baff00;
+
+    background-color: #170021;
+}
+
+header p {
+    color: #ff65ff;
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav {
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: #baff00;
+
+    border: 5px dashed #7200a8;
+}
+
+nav h2 {
+    margin-top: 0;
+
+    color: #30004a;
+
+    font-size: 1.4rem;
+
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li {
+    display: inline-block;
+
+    margin: 5px;
+}
+
+nav a {
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: #350052;
+
+    color: #baff00;
+
+    border: 3px solid #7200a8;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #ff65ff;
+    color: #170021;
+}
+
+
+/* ================= MAIN ================= */
+
+main {
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 10px;
+}
+
+
+/* ================= SECTIONS ================= */
+
+section {
+    margin: 25px 0;
+
+    padding: 20px;
+
+    background-color: #250036;
+
+    border: 4px solid #7200a8;
+}
+
+section:nth-child(even) {
+    border-color: #baff00;
+}
+
+section h2 {
+    color: #ff65ff;
+
+    font-family: Impact, "Arial Black", sans-serif;
+
+    font-size: 2.3rem;
+
+    margin-top: 0;
+
+    text-transform: uppercase;
+
+    border-bottom: 3px dotted #baff00;
+
+    padding-bottom: 5px;
+}
+
+section h3 {
+    color: #baff00;
+}
+
+
+/* ================= TEXT ================= */
+
+p {
+    font-size: 1.05rem;
+}
+
+strong {
+    color: #baff00;
+}
+
+em {
+    color: #ff65ff;
+}
+
+
+/* ================= LINKS ================= */
+
+a {
+    color: #baff00;
+
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff65ff;
+}
+
+
+/* ================= BLOCKQUOTE ================= */
+
+blockquote {
+    margin: 20px 0;
+
+    padding: 15px;
+
+    background-color: #350052;
+
+    border-left: 10px solid #baff00;
+
+    color: #ff65ff;
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+}
+
+
+/* ================= LISTS ================= */
+
+ul,
+ol {
+    padding-left: 30px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+li::marker {
+    color: #ff65ff;
+}
+
+
+/* ================= PROJECTS ================= */
+
+article {
+    padding: 15px;
+
+    margin: 15px 0;
+
+    background-color: #350052;
+
+    border: 3px dashed #baff00;
+}
+
+article h3 {
+    margin-top: 0;
+
+    color: #ff65ff;
+}
+
+article a {
+    display: inline-block;
+
+    padding: 6px 10px;
+
+    background-color: #baff00;
+
+    color: #30004a;
+
+    text-decoration: none;
+
+    border: 3px solid #7200a8;
+}
+
+article a:hover {
+    background-color: #ff65ff;
+}
+
+
+/* ================= TABLE ================= */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: #350052;
+}
+
+caption {
+    padding: 10px;
+
+    color: #baff00;
+
+    font-weight: bold;
+
+    font-size: 1.2rem;
+}
+
+th {
+    background-color: #baff00;
+
+    color: #30004a;
+
+    text-transform: uppercase;
+}
+
+td,
+th {
+    padding: 12px;
+
+    border: 3px solid #7200a8;
+
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #250036;
+}
+
+
+/* ================= DETAILS ================= */
+
+details {
+    margin-top: 20px;
+
+    padding: 10px;
+
+    background-color: #350052;
+
+    border: 3px solid #ff65ff;
+}
+/* ================= METER ================= */
+
+meter {
+    width: 180px;
+
+    height: 20px;
+}
+
+
+/* ================= FORM ================= */
+
+form {
+    background-color: #350052;
+
+    padding: 20px;
+
+    border: 4px solid #baff00;
+}
+
+fieldset {
+    border: 3px dashed #ff65ff;
+
+    padding: 20px;
+}
+
+legend {
+    padding: 5px 10px;
+
+    background-color: #baff00;
+
+    color: #30004a;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+
+/* ================= INPUTS ================= */
+
+input,
+textarea,
+select {
+    width: 100%;
+
+    max-width: 600px;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    background-color: #170021;
+
+    color: #baff00;
+
+    border: 3px solid #7200a8;
+
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 3px solid #ff65ff;
+
+    border-color: #baff00;
+}
+
+
+/* ================= CHECKBOX ================= */
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+/* ================= BUTTONS ================= */
+
+button {
+    padding: 10px 18px;
+
+    margin: 5px;
+
+    background-color: #baff00;
+
+    color: #30004a;
+
+    border: 4px solid #7200a8;
+
+    font-family: "Comic Sans MS", sans-serif;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff65ff;
+}
+
+
+/* ================= FINAL MESSAGE ================= */
+
+section:last-of-type {
+    margin: 30px 20px;
+
+    text-align: center;
+
+    background-color: #baff00;
+
+    color: #30004a;
+
+    border: 6px double #7200a8;
+}
+
+section:last-of-type h2 {
+    color: #30004a;
+
+    border-color: #7200a8;
+}
+
+section:last-of-type p {
+    font-size: 1.4rem;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    margin-top: 30px;
+
+    padding: 25px;
+
+    background-color: #350052;
+
+    color: #ff65ff;
+
+    text-align: center;
+
+    border-top: 5px solid #baff00;
+}
+
+footer a {
+    color: #baff00;
+}
+
+
+/* ================= HORIZONTAL LINES ================= */
+
+hr {
+    border: 0;
+
+    border-top: 4px dashed #7200a8;
+
+    margin: 20px;
+}
+
+
+
+/* ================= INTRO ================= */
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+        transform: scale(0);
+        rotate: 0deg;
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1);
+        rotate: 360deg;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0);
+        rotate: 360deg;
+    }
+
+}
+
+
+#wd {
+    position: fixed;
+
+    width: 100vw;
+    height: 100vh;
+
+    object-fit: fill;
+
+    animation: fadeIn 5s ease-in-out forwards;
+
+    z-index: 1000;
+}
+#followersButton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #baff00;
+    color: #300040;
+    border: 4px solid #7200a8;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+}
+
+#followersButton:hover {
+    background-color: #ff65ff;
+}
+

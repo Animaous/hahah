@@ -1,0 +1,230 @@
+
+
+body {
+    margin: 0;
+
+    background-color: #170021;
+
+    color: #baff00;
+
+    font-family: "Comic Sans MS", Arial, sans-serif;
+
+    text-align: center;
+}
+
+
+header {
+    background-color: #350052;
+
+    border-bottom: 5px solid #baff00;
+
+    padding: 15px;
+}
+
+header h1 {
+    color: #ff65ff;
+
+    font-family: Impact, Arial Black, sans-serif;
+
+    letter-spacing: 5px;
+}
+
+#info {
+    padding: 10px;
+
+    background-color: #250036;
+
+    border-bottom: 3px dashed #7200a8;
+}
+
+
+#gameArea {
+
+    position: relative;
+
+    width: 800px;
+
+    max-width: 90vw;
+
+    height: 500px;
+
+    margin: 20px auto;
+
+    background-color: #08000d;
+
+    border: 5px solid #7200a8;
+
+    overflow: hidden;
+}
+
+
+#player {
+
+    position: absolute;
+
+    bottom: 20px;
+
+    left: 375px;
+
+    width: 50px;
+
+    height: 40px;
+
+    color: #baff00;
+
+    font-size: 40px;
+
+    line-height: 40px;
+
+}
+
+.enemy {
+
+    position: absolute;
+
+    width: 40px;
+
+    height: 30px;
+
+    color: #ff65ff;
+
+    font-size: 30px;
+
+}
+
+
+.bullet {
+
+    position: absolute;
+
+    width: 5px;
+
+    height: 15px;
+
+    background-color: #baff00;
+
+}
+
+
+
+#message {
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 700px;
+
+    background-color: #350052;
+
+    border: 4px solid #baff00;
+}
+
+#messageTitle {
+    color: #ff65ff;
+}
+
+
+button {
+
+    padding: 12px 25px;
+
+    background-color: #baff00;
+
+    color: #300040;
+
+    border: 4px solid #7200a8;
+
+    font-family: "Comic Sans MS", sans-serif;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff65ff;
+}
+
+
+
+.success {
+    color: #baff00;
+}
+
+
+
+.failure {
+    color: #ff3333;
+}
+
+#winPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+#popupBox {
+    width: 450px;
+    max-width: 80%;
+
+    padding: 30px;
+
+    background-color: #350052;
+    color: #baff00;
+
+    border: 5px solid #baff00;
+
+    text-align: center;
+
+    box-shadow: 0 0 30px #baff00;
+}
+
+#popupBox h2 {
+    color: #ff65ff;
+    font-family: Impact, Arial Black, sans-serif;
+}
+
+#popupBox button {
+    padding: 12px 25px;
+
+    background-color: #baff00;
+    color: #300040;
+
+    border: 4px solid #7200a8;
+
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#popupBox button:hover {
+    background-color: #ff65ff;
+}
+#followersButton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #baff00;
+    color: #300040;
+    border: 4px solid #7200a8;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+}
+
+#followersButton:hover {
+    background-color: #ff65ff;
+}
